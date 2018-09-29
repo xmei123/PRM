@@ -84,7 +84,7 @@ def network_trainer(
 
     # multi-gpu support
     if device.type == 'cuda' and use_data_parallel:
-        device_ids = [0]
+        device_ids = [0,1,2,3,4,5,6,7]
         model = nn.DataParallel(model,device_ids=device_ids)
         model = model.to(device)
 #         print(torch.cuda.device_count())
