@@ -10,7 +10,7 @@ Reproduce Zhou's work on DGX-a using multiple GPUs
 4. Under /Nest-pytorch/install/trainer.py, line 87, add device_ids 0 to 7
 #device_ids = [0,1,2,3,4,5,6,7]
 
-5. Under /PRM-pytorch/demp/plot.py, add two lines plt.savefig('./test.png') and plt.savefig('./test2.png') to save the tested sample data (since images are not displayed in the server).
+5. Under /PRM-pytorch/demo/main.py, add two lines plt.savefig('./test.png') and plt.savefig('./test2.png') to save the tested sample data (had trouble displaying images in server).
 
 6. I copied the two sample results test.png and test2.png to my dirctory /home/xmei, which are also showed below
 
