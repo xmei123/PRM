@@ -24,6 +24,14 @@ steps:
 
  ![Image description](https://github.com/xmei123/PRM/blob/master/sample0_peak_map.png)
  ![Image description](https://github.com/xmei123/PRM/blob/master/sample0_prediction.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample1_peak_map.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample1_prediction.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample2_peak_map.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample2_prediction.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample3_peak_map.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample3_prediction.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample4_peak_map.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample4_prediction.png)
  
 
 
