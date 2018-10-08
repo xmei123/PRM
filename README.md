@@ -7,13 +7,13 @@ Reproduce Zhou's work on DGX-a using multiple GPUs
 
 3. Change batch_size = 9 in /PRM-pytorch/demo/config.yml to have batch size greater than the number of GPUs as well as not to consume too much memory. (may change to the default batch_size = 16 later, I used five GPUs when I ran the code).
 
+4. Under /Nest-pytorch/install/trainer.py, line 87, add device_ids 0 to 7
+#device_ids = [0,1,2,3,4,5,6,7]
+
+5. Under /PRM-pytorch/demp/plot.py, add two lines plt.savefig('./test.png') and plt.savefig('./test2.png') to save the tested sample data (since images are not displayed in the server).
+
+6. I copied the two sample results test.png and test2.png to my dirctory /home/xmei, which are also showed below
 
 
 
-一.在DGX-1上创建新的docker环境，pytorch版本为18.03,将下载在/home/mei目录下的datasets映像到docker中。
 
-二.在docker中配置zhou环境，具体按照zhou的github上的说明
-
-三.将/PRM-pytorch/demo/config.yml中的batch_size改为9，防止太大内存不够以及使batch_size大于GPU数量
-
-四.测试data中的sample文件，正确
