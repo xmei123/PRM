@@ -1,7 +1,7 @@
 # PRM
 Reproduce Zhou's work on DGX-a using multiple GPUs
 
-1. Create a docker image using pytorch 18.03. Pull /home/mei/datasets to the creased docker image
+1. Create a docker image named PRM using pytorch 18.03. Pull /home/mei/datasets to the created docker image
 
 2. Configure Zhou's enviroment in docker. Follow Zhou's github instructions
 
@@ -13,6 +13,13 @@ Reproduce Zhou's work on DGX-a using multiple GPUs
 5. Under /PRM-pytorch/demo/main.py, add two lines plt.savefig('./test.png') and plt.savefig('./test2.png') to save the tested sample data (had trouble displaying images in server).
 
 6. I copied the two sample results test.png and test2.png to my dirctory /home/xmei, which are also showed below
+
+steps:
+(1) docker start PRM
+(2) docker attach PRM
+(3) cd ..
+(4) cd PRM-pytorch/demo
+(5) python main.py
 
 
 
