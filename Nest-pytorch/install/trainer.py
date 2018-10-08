@@ -155,7 +155,7 @@ def network_trainer(
                 
                 ctx.input = {k: v.to(device) if torch.is_tensor(v) else v for k, v in input.items()}
             else:
-#                 print(type(input))            #这里input是torch.tensor
+#                 print(type(input))            
                 ctx.input = input.to(device)
             ctx.target = target.to(device)
 
