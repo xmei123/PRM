@@ -35,7 +35,7 @@ def main():
 		augmentation = dict(),
 		mean = [0.485, 0.456, 0.406],
 		std = [0.229, 0.224, 0.225])
-	backbone = modules.fc_resnet50(num_classes=20, pretrained=False)
+	backbone = modules.fc_resnet50(num_classes=14, pretrained=False)
 	model = modules.peak_response_mapping(backbone)
 	# loaded pre-trained weights
 	model = nn.DataParallel(model)
