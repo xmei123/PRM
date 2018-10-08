@@ -19,10 +19,12 @@ steps:
 (1) docker start PRM
 (2) docker attach PRM
 (3) cd PRM-pytorch/demo
-(5) python main.py
- ![加载图片](https://github.com/xmei123/PRM/blob/master/sheep.png)
- ![加载图片](https://github.com/xmei123/PRM/blob/master/sheep%20(2).png)
+(4) python main.py
 
+
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample0_peak_map.png)
+ ![Image description](https://github.com/xmei123/PRM/blob/master/sample0_prediction.png)
+ 
 
 
 
