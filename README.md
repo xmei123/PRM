@@ -20,5 +20,4 @@ steps:
 (3) cd ..
 (4) cd PRM-pytorch/demo
 (5) python main.py
-      
-
+ ![加载图片](https://github.com/xmei123/PRM/blob/master/sheep.png)
