@@ -20,9 +20,5 @@ steps:
 (3) cd ..
 (4) cd PRM-pytorch/demo
 (5) python main.py
-
-
-
-        PRM/sheep (2).png
       
 
